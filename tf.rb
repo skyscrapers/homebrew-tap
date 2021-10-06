@@ -3,9 +3,9 @@
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Tf < Formula
   desc "TF script"
-  homepage "https://github.com/skyscrapers/brew-tools"
-  url "https://github.com/skyscrapers/brew-tools/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "19aca246b1d840f6a35a702b4c802f518bc2ecb2949210fdcd363291607ea24c"
+  homepage "https://github.com/skyscrapers/tools"
+  url "https://github.com/skyscrapers/tools/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "365c77bbf4ce75d93fa4fd863be7a211b8d5b702072c44c352798f8930c6ee58"
   license "MIT"
 
   # depends_on "terraform"
