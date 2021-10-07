@@ -8,7 +8,8 @@ class Tf < Formula
   sha256 "365c77bbf4ce75d93fa4fd863be7a211b8d5b702072c44c352798f8930c6ee58"
   license "MIT"
 
-  # depends_on "terraform"
+  depends_on "terraform" => :recommended
+  depends_on "tfenv" => :optional
 
   def install
     bin.install "bin/tf"
